@@ -1,0 +1,139 @@
+<resources>
+    <!--App's Name-->
+    <string name="app_name">Rápido\nPresupuesto</string>
+    <string name="my_name">Luis Ernesto Peláez Ferro</string>
+    <string name="my_email">lpelaezf@gmail.com</string>
+    <string name="about">Acerca de</string>
+    <string name="developed">Desarrollado por:</string>
+
+    <!--Project's Strings-->
+    <string name="projects">Proyectos</string>
+    <string name="new_pro">Insertar Proyecto</string>
+    <string name="edit_pro">Editar Proyecto</string>
+    <string name="name">Nombre</string>
+    <string name="project_data">Datos del Proyecto</string>
+    <string name="client_data">Datos del Cliente</string>
+    <string name="client_address">Dirección</string>
+    <string name="fix_cost">Costo Fijo</string>
+    <string name="fix_cost_for_cardview">COSTO FIJO</string>
+    <string name="variable_cost">Costo Variable</string>
+    <string name="variable_cost_for_cardview">COSTO VARIABLE</string>
+    <string name="total_cost">Costo Total</string>
+    <string name="see_project">Ver proyecto</string>
+    <string name="see_client">Ver cliente</string>
+    <string name="see_cost_type">Tipo de Costo</string>
+    <string name="contact">Contactos</string>
+    <string name="notes">Notas</string>
+    <string name="notes_of">Notas de</string>
+    <string name="export">Exportar</string>
+    <string name="write">Escriba su nota aquí</string>
+    <string name="insert_note">Insertar Nota</string>
+    <string name="contacts_of">Contactos de</string>
+    <string name="insert_contact">Nuevo contacto de</string>
+    <string name="edit_contact">Editar contacto de</string>
+    <string name="contact_name">Nombre del contacto</string>
+    <string name="phone">Teléfono</string>
+    <string name="to_contact">Contactar</string>
+    <string name="budget_of">Presupuesto de</string>
+
+    <!--Activity's Strings-->
+    <string name="activities">Actividades</string>
+    <string name="name_act">Nombre de la Actividad</string>
+    <string name="new_act">Insertar Actividad</string>
+    <string name="edit_act">Editar Actividad</string>
+    <string name="um">UM</string>
+    <string name="price">Costo</string>
+    <string name="dual_for_chbox">Cobrar</string>
+    <string name="dual_for_label">COBRAR</string>
+    <string name="finished">Terminado</string>
+    <string name="cal_cost">Costo de Mano de Obra</string>
+    <string name="see_uses">Ver usos</string>
+    <string name="see_act">Ver actividad</string>
+    <string name="uses">Usos</string>
+    <string name="total">TOTAL</string>
+    <string name="large">Largo</string>
+    <string name="width">Ancho</string>
+    <string name="height">Altura</string>
+    <string name="room">Habitación</string>
+    <string name="to_do">Asignar actividad a</string>
+    <string name="edit_to_do">Editar asignación de actividad en</string>
+    <string name="amount">Cantidad</string>
+    <string name="amounts">CANTIDADES</string>
+    <string name="dimens">DIMENSIONES</string>
+    <string name="summary_cost">Resumen Costo Mano de Obra -</string>
+    <string name="reuse">Reutilizar</string>
+
+    <!--Material's String-->
+    <string name="materials">Materiales</string>
+    <string name="name_mat">Nombre del Material</string>
+    <string name="format">Formato</string>
+    <string name="new_mat">Insertar Material</string>
+    <string name="edit_mat">Editar Material</string>
+    <string name="expense_on">Gasto de</string>
+    <string name="expense">Gasto</string>
+    <string name="expense_mat_to">Insertar Gasto a</string>
+    <string name="edit_expense_mat_to">Editar Gasto a</string>
+    <string name="cal_exp">Gasto de Materiales</string>
+    <string name="summary_expense">Resumen de Materiales -</string>
+    <string name="without_expense">Con Gasto</string>
+    <string name="with_expense">Sin Gasto</string>
+
+    <!--General Labels-->
+    <string name="see">Ver</string>
+    <string name="insert">Insertar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="send_email">Enviar por:</string>
+    <string name="reminder">Recordatorio</string>
+    <string name="accumulate">Acumular</string>
+    <string name="discount">Descontar</string>
+    <string name="important">Importante</string>
+    <string name="overwrite">Sobrescribir</string>
+    <string name="plus">Sumar</string>
+    <string name="call">Llamar</string>
+    <string name="sms">Enviar SMS</string>
+    <string name="lock_unlock">Bloquear/Desbloquear</string>
+    <string name="progress">Progreso</string>
+    <string name="define_progress">Definir Progreso: Total</string>
+    <string name="finish">Completar</string>
+    <string name="import_export_db">Importar/Exportar BD</string>
+    <string name="select_action">Seleccionar Acción</string>
+    <string name="description_img_view_card_view_project">Indicador que dice si el proyecto está bloqueado o no</string>
+
+    <!--Notifications-->
+    <string name="inserted">Insertado Exitosamente.</string>
+    <string name="edited">Editado Exitosamente.</string>
+    <string name="edited_reminder">Recuerde que, ahora deberá definir las actividades que se no cobrarán.</string>
+    <string name="empty_field">Quedan campos sin llenar.</string>
+    <string name="empty_field_room">Defina la Habitación</string>
+    <string name="exist">El elemento seleccionado ya ha sido insertado.</string>
+    <string name="confirm_delete_long">¿Está seguro que desea eliminar el elemento seleccionado? \n\nTenga en cuenta que, si de este elemento dependen otros, estos también serán eliminados. </string>
+    <string name="confirm_delete_short">¿Está seguro que desea eliminar el elemento seleccionado? </string>
+    <string name="without_uses">Esta actividad aun no se ha usado </string>
+    <string name="there_is_not_elements">No hay elementos para mostrar</string>
+    <string name="invalid_total">No existe un TOTAL para insertar o este es menor que 0</string>
+    <string name="exist_cost_act">Ya se ha insertado esta actividad en esta habitación con tamaño</string>
+    <string name="wish">¿Qué desea hacer?</string>
+    <string name="there_is_not_mat">No hay materiales para definir gastos</string>
+    <string name="confirm_back_exit">Pulse atrás nuevamente para salir de Rápido Presupuesto</string>
+    <string name="empty_project">Imposible crear el archivo, el proyecto está vacío</string>
+    <string name="fail_create_txt_file">No se pudo crear el archivo</string>
+    <string name="io_error">Hubo un error de lectura/escritura</string>
+    <string name="file_not_found">Archivo no encontrado</string>
+    <string name="succesfully_exporting">Exportado correctamente a</string>
+    <string name="invalid_dir">Directorio no válido</string>
+    <string name="security_fail">Fallo de seguridad</string>
+    <string name="invalid_db_file">El archivo seleccionado no es un fichero de base de datos</string>
+    <string name="invalid_budget_quick_db">El archivo seleccionado no es una base de datos de Rápido Presupuesto</string>
+
+
+<!--    Whats new -->
+    <string name="news">Detalles de la Versión</string>
+    <string name="wats_new"> <b>Versión 2.0</b> \n\n
+        <b>ARREGLOS</b> \n\n - Arreglado varios bugs visuales. \n\n  - Arreglado el problema del redondeo en el cálculo del costo total de mano de obra. Ahora redondea al número superior divisible por 10 \n\n  - Arreglado el problema de la pérdida de posición de las listas al editar o eliminar un elemento de ella.\n\n
+        <b>MEJORAS</b> \n\n - Mejorado el aspecto visual de la aplicación con algunos efectos y animaciones. \n\n - Mejorada la asignación de actividades a un proyecto cuando se inserta. Ya no se reinicia el campo "habitación" ni el spinner de las categorías. \n\n - Mejorado el cambio del tipo de costo de los proyectos cuando se cambia de fijo a variable. Ahora se define los que no se van a cobrar por ser los menos \n\n - Mejorada la forma en ver el tipo de costo de los proyectos. Ya no es una opción de un menú, ahora es explícitamente visible en la esquina superior derecha de la tarjeta \n\n - Mejorada la visualización del progreso del proyecto. Ahora es visible el porcentaje. \n\n - Mejorada la forma en que se determina el progreso de las actividades. Ya no se marca la actividad justo cuando esta termina, ahora es posible definir lo que se ha hecho exactamente de ella. Ahora el progreso es más demostrativo.\n\n
+        <b>CAMBIOS</b> \n\n - Cambiada la moneda en el que se basan los precios, de "cuc" a "$". Se necesitará redefinir precios. \n\n Cambiada la naturaleza del campo precio. Antes números decimales, ahora solo naturales. Se necesitará redefinir precios. \n\n - Cambiada la autorización IMEI, ahora la aplicación es libre de uso. \n\n - Cambiada la estructura visual de la pantalla de asignar las actividades a los proyectos, se logró una mejor organización de los elementos. \n\n
+        <b>NUEVAS FUNCIONES</b> \n\n - Implementada esta nueva funcionalidad que estás viendo.\n\n - Ahora es posible bloquear un proyecto permitiendo que el sistema no le realice recálculo de presupuesto si hubieran cambios en actividades asignadas. \n\n - Implementada una confirmación cuando se presiona el botón de atrás en el menú principal, evitando cierres no deseados de la aplicación. \n\n - Implementado un multiplicador en la pantalla de asignar actividades a proyectos, con el fin de dinamizar el proceso de la captura de medidas. En esta misma pantalla se implementa la opción de reutilizar las habitaciones previamente insertadas en el proyecto en cuetión.\n\n - Ahora es posible exportar el presupuesto total como un documento de texto. \n\n - Ahora es posible exportar/importar la base de datos.</string>
+</resources>

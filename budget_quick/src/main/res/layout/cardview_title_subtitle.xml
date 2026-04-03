@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_material"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/cardview_margin_bottom"
+    card_view:cardBackgroundColor="@color/colorCardViewBackground"
+    card_view:cardCornerRadius="@dimen/cardview_corner_radius"
+    >
+
+    <com.andexert.library.RippleView
+        android:id="@+id/rppv_effect_backg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rv_rippleDuration="100">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/cardview_padding">
+
+            <TextView
+                android:id="@+id/txview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/TitleCardViewProject" />
+
+            <TextView
+                android:id="@+id/txview_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                style="@style/SubtitleCardViewProject" />
+        </LinearLayout>
+    </com.andexert.library.RippleView>
+</androidx.cardview.widget.CardView>

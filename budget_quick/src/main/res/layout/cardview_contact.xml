@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_contact"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/cardview_margin_bottom"
+    card_view:cardBackgroundColor="@color/colorCardViewBackground"
+    card_view:cardCornerRadius="@dimen/cardview_corner_radius">
+
+    <com.andexert.library.RippleView
+        android:id="@+id/rppv_cont_backg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rv_rippleDuration="100">
+
+        <LinearLayout
+            android:id="@+id/llh_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_vertical_margin"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5">
+
+                <TextView
+                    android:id="@+id/txv_title_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/TitleCardViewProject"/>
+
+                <TextView
+                    android:id="@+id/txv_subtitle_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    style="@style/SubtitleCardViewProject"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <com.andexert.library.RippleView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:rv_centered="true"
+                    app:rv_rippleDuration="150"
+                    app:rv_ripplePadding="5dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:id="@+id/imgv_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_call"
+                        android:contentDescription="@string/call" />
+                </com.andexert.library.RippleView>
+
+                <com.andexert.library.RippleView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:rv_centered="true"
+                    app:rv_rippleDuration="150"
+                    app:rv_ripplePadding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgv_sms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_sms"
+                        android:contentDescription="@string/sms" />
+                </com.andexert.library.RippleView>
+            </LinearLayout>
+        </LinearLayout>
+    </com.andexert.library.RippleView>
+</androidx.cardview.widget.CardView>

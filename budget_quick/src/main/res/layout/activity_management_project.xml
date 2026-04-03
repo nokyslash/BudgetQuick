@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="home.lernesto.budgetquick.InsertProjectActivity">
+
+    <include
+        android:id="@+id/appbar_insert_pro"
+        layout="@layout/toolbar_action_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/project_data" />
+
+            <EditText
+                android:id="@+id/edit_name_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:autofillHints="@string/name"
+                android:inputType="textCapWords" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <CheckBox
+                    android:id="@+id/chec_box_fix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fix_cost" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30" />
+
+                <EditText
+                    android:id="@+id/edit_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="3"
+                    android:maxLength="5"
+                    android:hint="@string/price"
+                    android:autofillHints="@string/price"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/elements_insert_act_margin_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/client_data" />
+
+            <EditText
+                android:id="@+id/edit_client_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="@string/name"
+                android:autofillHints="@string/name" />
+
+            <EditText
+                android:id="@+id/edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/client_address"
+                android:autofillHints="@string/client_address"
+                android:inputType="textPostalAddress" />
+
+            <Button
+                android:id="@+id/button_ok_insert_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/elements_insert_act_margin_vertical"
+                style="@style/Widget.AppCompat.Button.Colored"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

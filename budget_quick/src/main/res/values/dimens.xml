@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin_small">5dp</dimen>
+    <dimen name="elements_insert_act_margin_vertical">20dp</dimen>
+    <dimen name="elements_insert_act_margin_horizontal">20dp</dimen>
+
+    <!--Dimens CardView's Elements Projects-->
+    <dimen name="cardview_padding">10dp</dimen>
+    <dimen name="cardview_margin_bottom">10dp</dimen>
+    <dimen name="cardview_corner_radius">10dp</dimen>
+    <dimen name="cardview_elements_margin_bottom">5dp</dimen>
+    <dimen name="cardview_act_title_margin_bottom">20dp</dimen>
+    <dimen name="cardview_subtitle_margin_left">5dp</dimen>
+    <dimen name="cardview_title_text_size">23sp</dimen>
+    <dimen name="cardview_subtitle_text_size">15sp</dimen>
+    <dimen name="cardview_index_text_size">8sp</dimen>
+    <dimen name="cardview_index_text_size2">10sp</dimen>
+
+    <!--Toolbar Support Action Bar's Elevation-->
+    <dimen name="toolbar_action_bar_elevation">4dp</dimen>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Demolición</item>
+        <item>Muros</item>
+        <item>Hormigón</item>
+        <item>Revestimientos</item>
+        <item>Plomería</item>
+        <item>Pintura</item>
+        <item>Misceláneas</item>
+        <item>Gastos</item>
+    </string-array>
+
+    <string-array name="categories_total">
+        <item>Demolición</item>
+        <item>Muros</item>
+        <item>Hormigón</item>
+        <item>Revestimientos</item>
+        <item>Plomería</item>
+        <item>Pintura</item>
+        <item>Misceláneas</item>
+        <item>Gastos</item>
+        <item>Total</item>
+    </string-array>
+
+    <string-array name="ums">
+        <item>u</item>
+        <item>m</item>
+        <item>m²</item>
+        <item>m³</item>
+    </string-array>
+
+    <string-array name="mode">
+        <item>Total</item>
+        <item>Por Habitación</item>
+        <item>Por Actividades</item>
+    </string-array>
+
+    <string-array name="import_export">
+        <item>Importar</item>
+        <item>Exportar</item>
+    </string-array>
+</resources>

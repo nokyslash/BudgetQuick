@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_project"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/cardview_margin_bottom"
+    card_view:cardBackgroundColor="@color/colorCardViewBackground"
+    card_view:cardCornerRadius="@dimen/cardview_corner_radius">
+
+    <com.andexert.library.RippleView
+        android:id="@+id/rppv_pro_backg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rv_rippleDuration="100">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/cardview_padding">
+
+            <CheckBox
+                android:id="@+id/chb_selected_for_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txview_typeCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                style="@style/DualityCardViewAssignedActivity"/>
+
+            <TextView
+                android:id="@+id/txview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/TitleCardViewProject" />
+
+            <TextView
+                android:id="@+id/txview_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                style="@style/SubtitleCardViewProject" />
+
+            <com.youngtr.numberprogressbar.NumberProgressBar
+                android:id="@+id/progress_horizontal_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:numberTextColor="@color/colorTextLightGray"
+                card_view:numberTextSize="10sp"
+                card_view:progressBarShape="horizontal"
+                card_view:reachedBarColor="@color/colorAccent"
+                card_view:reachedBarHeight="3dp"
+                card_view:textOffset="2dp"
+                card_view:unreachedBarColor="@color/colorBackground"
+                card_view:unreachedBarHeight="2dp"
+                card_view:maxValue="100"/>
+
+            <ImageView
+                android:id="@+id/imageViewLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/description_img_view_card_view_project" />
+        </LinearLayout>
+    </com.andexert.library.RippleView>
+</androidx.cardview.widget.CardView>

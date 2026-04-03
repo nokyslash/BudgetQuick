@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/op_edit_cost_act"
+        android:title="@string/edit">
+    </item>
+    <item
+        android:id="@+id/op_remove_cost_act"
+        android:title="@string/delete">
+    </item>
+    <item
+        android:id="@+id/op_progress_cost_act"
+        android:title="@string/progress">
+    </item>
+</menu>

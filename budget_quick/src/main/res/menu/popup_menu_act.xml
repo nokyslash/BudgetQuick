@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/op_see_act"
+        android:title="@string/see_act">
+    </item>
+
+    <item
+        android:id="@+id/op_see_uses"
+        android:title="@string/see_uses">
+    </item>
+
+    <item
+        android:id="@+id/op_edit_act"
+        android:title="@string/edit">
+    </item>
+
+    <item
+        android:id="@+id/op_remove_act"
+        android:title="@string/delete">
+    </item>
+</menu>

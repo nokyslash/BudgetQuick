@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CostActActivity">
+
+    <item
+        android:id="@+id/op_cal_cost"
+        android:title="@string/cal_cost"
+        app:showAsAction="never"
+        android:orderInCategory="100">
+    </item>
+
+    <item
+        android:id="@+id/op_cal_exp"
+        android:title="@string/cal_exp"
+        app:showAsAction="never"
+        android:orderInCategory="101">
+    </item>
+
+    <item
+        android:id="@+id/op_contact"
+        android:title="@string/contact"
+        app:showAsAction="never"
+        android:orderInCategory="102">
+    </item>
+
+    <item
+        android:id="@+id/op_notes"
+        android:title="@string/notes"
+        app:showAsAction="never"
+        android:orderInCategory="103">
+    </item>
+
+    <item
+        android:id="@+id/op_export"
+        android:title="@string/export"
+        app:showAsAction="never"
+        android:orderInCategory="104">
+    </item>
+</menu>

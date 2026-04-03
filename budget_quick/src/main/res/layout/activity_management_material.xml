@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="home.lernesto.budgetquick.InsertMaterialActivity">
+
+    <include
+        android:id="@+id/appbar_insert_mat"
+        layout="@layout/toolbar_action_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <EditText
+                android:id="@+id/edit_name_mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="@string/name_mat"
+                android:autofillHints="@string/name_mat"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/edit_format"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:hint="@string/format"
+                android:autofillHints="@string/format"
+                android:inputType="textCapWords" />
+
+            <Button
+                android:id="@+id/button_ok_insert_mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/elements_insert_act_margin_vertical"
+                style="@style/Widget.AppCompat.Button.Colored"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

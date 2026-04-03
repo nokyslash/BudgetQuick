@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--AppTheme's Colors-->
+    <color name="colorPrimary">#2d2e33</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorAccent">#febd16</color>
+    <color name="colorLightAccent">#FECD7D</color>
+    <color name="colorBackground">#4a4b52</color>
+
+    <!--Auxliar Colors-->
+    <color name="colorCardViewBackground">#3b3c42</color>
+    <color name="colorLink">#007eed</color>
+    <color name="colorTextLightGray">@android:color/primary_text_dark</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
