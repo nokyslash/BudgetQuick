@@ -42,7 +42,7 @@ As a legacy project, I recognize several areas for modernization:
 2.  **Architecture:** Migrate to **MVVM + Clean Architecture** (currently standard Android).
 3.  **Persistence:** Upgrade raw SQLite to **Room** for compile-time safety.
 4.  **UI:** Move from XML to **Jetpack Compose**.
-5.  **Security:** Replace IMEI-based hardware locking with modern **Firebase Auth** or OAuth2.
+5.  **Security:** Earlier IMEI-based device restrictions were removed from the final demo release. In a modern redesign, access control would be handled with Firebase Auth or OAuth2.
 
 ---
 
