@@ -15,7 +15,7 @@ Used in **20+ real projects**, it evolved from a production tool into a Software
 
 You can download and test the app directly:
 
-- 🔹 [Download BudgetQuick v2.0 APK](https://github.com/nokyslash/BQ/releases/tag/v2.0)
+- 🔹 [Download BudgetQuick v2.0 APK](https://github.com/nokyslash/BudgetQuick/releases/tag/v2.0)
 
 > Note: This APK is intended for demonstration purposes.
 
