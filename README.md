@@ -11,6 +11,14 @@ Used in **20+ real projects**, it evolved from a production tool into a Software
 
 ---
 
+## 📱 APK Download
+
+You can download and test the app directly:
+
+- 🔹 [Download BudgetQuick v2.0 APK](https://github.com/nokyslash/BQ/releases/tag/v2.0)
+
+> Note: This APK is intended for demonstration purposes.
+
 ## 🧠 Engineering & Design
 * **Methodology:** Developed using RUP (Rational Unified Process).
 * **Detailed Modeling:** Includes Sequence diagrams (Export Path), Collaboration diagrams (Android Permissions/Security), and a robust Entity-Relationship Model (MER).
