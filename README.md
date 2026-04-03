@@ -47,4 +47,8 @@ As a legacy project, I recognize several areas for modernization:
 ---
 
 ## ⚠️ Status
-This is a **Legacy Portfolio Project**. Due to outdated SDK dependencies and modern Android security restrictions (IMEI access), it is preserved for **architectural and code-review purposes** rather than immediate execution.
+This is a **Legacy Portfolio Project**. The application was originally built using older Android SDK versions.
+
+Some legacy constraints (such as IMEI-based device restrictions) were **removed in the final version** to allow demonstration and evaluation.
+
+The project is preserved primarily for **architectural and code-review purposes**, rather than production deployment.
