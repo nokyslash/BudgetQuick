@@ -29,6 +29,20 @@ You can download and test the app directly:
 * **Relational Domain:** Complex N:N relationships between Projects, Activities, and Materials.
 * **On-Site UX:** High-contrast UI inspired by real-world construction tool colors for better visibility outdoors.
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/v2.0/01-StartActivity.png" width="240"/>
+  <img src="docs/screenshots/v2.0/02-MainActivity-FragmentProject.png" width="240"/>
+  <img src="docs/screenshots/v2.0/Gestionar Proyecto/Insertar Proyecto (Vacío).png" width="240"/>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Asignar Actividad de Metro Cuadrado.png" width="240"/>
+  <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Menu Contextual de Actividades Asignadas a Proyecto.png" width="240"/>
+  <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Exportar (Generar Propuesta)/Documento de Propuesta.png" width="240"/>
+</p>
+
 ## 📂 Resources
 * **Demo Videos:** 3 short MP4 clips showcasing the application's core functionality, located in `docs/demo-videos/`.
 * **Technical Report:** Full engineering documentation available in `docs/report/informe-practica-profesional.pdf`.
