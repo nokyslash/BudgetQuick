@@ -39,7 +39,7 @@ You can download and test the app directly:
 
 <p align="center">
   <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Asignar Actividad de Metro Cuadrado.png" width="240"/>
-  <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Menu Contextual de Actividades Asignadas a Proyecto.png" width="240"/>
+  <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Menu Overflow Actividades Asignadas a Proyecto.png" width="240"/>
   <img src="docs/screenshots/v2.0/Gestionar Actividades de Proyectos/Exportar (Generar Propuesta)/Documento de Propuesta.png" width="240"/>
 </p>
 
